@@ -152,5 +152,6 @@ while (edges_Of_Polygon>=3){
                 fd(length)
                 rt(60)
             }
+            break;
         }
 }
