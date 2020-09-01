@@ -85,55 +85,72 @@ while (i <= LH) {
     Hs += 1
     i += 1
 }
-console.log(Ls+'Ls')
-console.log(Hs+'Hs')
+console.log(Ls + 'Ls')
+console.log(Hs + 'Hs')
 // Write a script to calculate the BMI (Body Mass Index) of a person,
 const mass = Number(prompt("Enter your weight in kilograms"))
 const height = Number(prompt("Enter your height in meters"))
 let BMI = mass / (height * height);
 if (BMI <= 16) {
-  alert("Severely underweight");
+    alert("Severely underweight");
 } else if (BMI <= 18.5) {
-  alert("Underweight");
+    alert("Underweight");
 } else if (BMI <= 25) {
-  alert("Normal");
+    alert("Normal");
 } else if (BMI <= 30) {
-  alert("Overweight");
+    alert("Overweight");
 } else {
-  alert("Obese");
+    alert("Obese");
 }
 // exercise 11
 // a square
-for (let i = 0; i <4; i++) {
-    fd (100)
-    rt (90)
+for (let i = 0; i < 4; i++) {
+    fd(100)
+    rt(90)
 }
-for (let i = 0; i <3; i++) {
-    fd (100)
-    rt (60)
+// a triangle
+for (let i = 0; i < 3; i++) {
+    fd(100)
+    rt(60)
 }
-for (let i = 0; i <5; i++) {
-    fd (100)
-    rt (360/5)
+//a pentagon
+for (let i = 0; i < 5; i++) {
+    fd(100)
+    rt(360 / 5)
 }
-for (let i = 0; i <6; i++) {
-    fd (100)
-    rt (360/6)
+//a hexagon
+for (let i = 0; i < 6; i++) {
+    fd(100)
+    rt(360 / 6)
 }
-//exercise 13
-for (let i = 0; i <6; i++) {
-    fd (100)
-    rt (360/6)
+//exercise 12
+const edges = prompt('how many edges')
+if (n = 3) {
+    for (let i = 0; i < 3; i++) {
+        fd(100)
+        rt(60)
+    }
 }
-for (let i = 0; i <5; i++) {
-    fd (90)
-    rt (360/5)
+else if (n > 3) {
+    for (let i = 0; i < edges; i++) {
+        fd(100)
+        rt(360 / edges)
+    }
 }
-for (let i = 0; i <4; i++) {
-    fd (80)
-    rt (360/4)
-}
-for (let i = 0; i <3; i++) {
-    fd (70)
-    rt (360/3)
+const polygons = prompt('how many polygons you want?')
+let edges_Of_Polygons = polygons +2
+let length = 100
+while (edges_Of_Polygon>=3){
+        for (let i = 0; i < edges_Of_Polygons; i++) {
+            fd(length)
+            rt(360 / edges_Of_Polygons)
+        }
+        length -= 10
+        edges_Of_Polygons -=1
+        if(edges_Of_Polygons=3){
+            for (let i = 0; i < 3; i++) {
+                fd(length)
+                rt(60)
+            }
+        }
 }
