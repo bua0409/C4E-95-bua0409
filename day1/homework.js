@@ -1,15 +1,15 @@
-var message = 'Coding is great';
+let message = 'Coding is great';
 console.log(message);
-var message = 'Coding might not be easy, but still great';
+message = 'Coding might not be easy, but still great';
 console.log(message);
-var message = message.toLowerCase();
+message = message.toLowerCase();
 console.log(message);
-var studentCount = 0;
-console.log(studentCount);
-var studentCount = 16;
-console.log(studentCount)
-var studentCount = 1;
-console.log(studentCount);
+let studentCount = 0;
+        console.log(studentCount);
+    studentCount = 16;
+        console.log(studentCount)
+    studentCount = 1;
+        console.log(studentCount);
 const firstName = prompt('Enter your first name is');
 const lastName = prompt('Enter your last name is');
 alert('Hi!!!' + ' ' + lastName + firstName)
