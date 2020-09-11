@@ -1,27 +1,3 @@
-// let preson = {
-//     name:'Bua'
-// }
-
-// for (let i = 0; i < 5; i++) {
-//     fd(100)
-//     rt(144)
-//     fd(100)
-//     rt(144)
-// }
-
-sort = [1, 5, 3, 7, 4, 9];
-for (let i = 0; i < sort.length; i++) {
-  for (let j = 0; j < i + 1; j++) {
-    if (sort[j] > sort[j + 1]) {
-      [sort[j], sort[j + 1]] = [sort[j + 1], sort[j]];
-    }
-  }
-}
-for (const iterator of object) {
-}
-for (const iterator of object) {
-}
-
 let DEV_DICTION = {
   debug:
     "the process of figuring out why program has a certain error and how to fix it",
