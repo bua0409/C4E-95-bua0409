@@ -75,7 +75,7 @@ else {
     alert(' this is an odd number')
 }
 // ⦁	Write a program to print out
-// ⦁	 L’s and H’s, half L’s, half H’s (L means low, H means high)
+// ⦁	 L's and H's, half L's, half H's (L means low, H means high)
 let LH = prompt('enter the total number of Ls and Hs')
 let Ls = 0
 let Hs = 0

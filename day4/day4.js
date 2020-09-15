@@ -3,7 +3,7 @@ let DEV_DICTION = {
     "the process of figuring out why program has a certain error and how to fix it",
   done:
     "when your task is complete, the only thing you have to do is to wait for users to use it (no additional codes or actions needed)",
-  detect: "the formal word for ‘error’",
+  detect: "the formal word for 'error'",
   pm:
     "the short version  of Project Manager, the person in charge of the final result of a project",
 };
@@ -39,28 +39,28 @@ if (bool == false) {
 let myProducts = [
     {
       name: "Xiaomi portable charger 20000mah",
-      brand: "Xiaomi",
+      brands: "Xiaomi",
       price: 428,
       color: "White",
       category: "Charger",
     },
     {
       name: "VSmart Active 1",
-      brand: "VSmart",
+      brands: "VSmart",
       price: 5487,
       color: "Black",
       category: "Phone",
     },
     {
       name: "IPhone X",
-      brand: "Apple",
+      brands: "Apple",
       price: 21490,
       color: "Gray",
       category: "Phone",
     },
     {
       name: "Samsung Galaxy A9",
-      brand: "Samsung",
+      brands: "Samsung",
       price: 8490,
       color: "Blue",
       category: "Phone",
@@ -142,12 +142,12 @@ let myProducts = [
       check = false;
       for (let i = 0; i < myProducts.length; i++) {
         let product = myProducts[i],
-          { name, brand, price, color, category, providers } = product;
+          { name, brands, price, color, category, providers } = product;
         for (let j = 0; j < providers.length; j++) {
           let indexProvider = providers[j].toLowerCase().indexOf(inputProvider);
           if (indexProvider !== -1) {
              console.log(`Name: ${name}`);
-             console.log(`Brand: ${brand}`);
+             console.log(`brands: ${brands}`);
              console.log(`Price: ${price}`);
              console.log(`Color: ${color}`);
              console.log(`Category: ${category}`);
@@ -925,7 +925,7 @@ let myProducts = [
                 locations: [
                     'Ho Chi Minh'
                 ],
-                jobDescription: '*Job Purpose:\t\t\r\nThe Global Web Marketing team has an exciting opportunity for a Front-End Developer to join our team of developers; working on creating best-in-class web-based products supporting the company’s marketing efforts (consumer and corporate sites, customer care, forum, game sites, campaign sites and newsletters).\r\nAn Intermediate Front-End Developer works with web developers and back-end coder and is technically responsible for the overall quality, security and development of the online user experience.  To this extent, proofreading skills and an all-around attention to detail is vital, in order to provide all target users a high-quality & efficient experience.\r\n\r\nMain Responsibilities:  \r\n•\tPerform web and legacy system development, update and support.\r\n•\tMust have strong knowledge of front-end web technologies.\r\n•\tGood understanding of Web analytics and SEO techniques and how to implement them.\r\n•\tOptimizes web applications to ensure they are rendered consistently and efficiently in a cross-browser environment\r\n•\tSupport the development team to boost website security and propose initiatives to deliver full website performance and optimization.\r\n•\tContribute to continuous improvement by suggesting improvement to user interface or new technologies.\r\n•\tAnalyzes customer requirements and defines front-end solutions while providing assistance to the team for any problem and technical roadblocks. \r\n•\tRecommends new technologies and development strategies\r\n•\tCoordinate roll-out of new applications\r\n•\tProvides production support\r\n•\tPerforms other duties that maybe assigned from time to time.',
+                jobDescription: '*Job Purpose:\t\t\r\nThe Global Web Marketing team has an exciting opportunity for a Front-End Developer to join our team of developers; working on creating best-in-class web-based products supporting the company's marketing efforts (consumer and corporate sites, customer care, forum, game sites, campaign sites and newsletters).\r\nAn Intermediate Front-End Developer works with web developers and back-end coder and is technically responsible for the overall quality, security and development of the online user experience.  To this extent, proofreading skills and an all-around attention to detail is vital, in order to provide all target users a high-quality & efficient experience.\r\n\r\nMain Responsibilities:  \r\n•\tPerform web and legacy system development, update and support.\r\n•\tMust have strong knowledge of front-end web technologies.\r\n•\tGood understanding of Web analytics and SEO techniques and how to implement them.\r\n•\tOptimizes web applications to ensure they are rendered consistently and efficiently in a cross-browser environment\r\n•\tSupport the development team to boost website security and propose initiatives to deliver full website performance and optimization.\r\n•\tContribute to continuous improvement by suggesting improvement to user interface or new technologies.\r\n•\tAnalyzes customer requirements and defines front-end solutions while providing assistance to the team for any problem and technical roadblocks. \r\n•\tRecommends new technologies and development strategies\r\n•\tCoordinate roll-out of new applications\r\n•\tProvides production support\r\n•\tPerforms other duties that maybe assigned from time to time.',
                 isShowLogoInSearchResult35: true,
                 publishedDate: 1568689556,
                 isPremium: false,
@@ -933,7 +933,7 @@ let myProducts = [
                     'JavaScript',
                     'HTML/CSS'
                 ],
-                jobRequirement: '1.\tYou’re :\r\n•\tMust display excellent leadership potential coupled with solid work ethic.\r\n•\tAbility to communicate clearly and concisely, both orally and in writing.\r\n•\tStrong analytical and problem solving skills.\r\n•\tKnowledge of basic project management methodology.\r\n•\tKnowledge in Scrum and Kanban is a must\r\n•\tKnowledge on any CMS (Content Management System) template will be plus\r\n\r\n2.\tQualifications and Experiences:\r\n•\tCandidates must possess at least a Bachelor’s degree, preferably in Computer Science/Information Technology or equivalent\r\n•\t3+ years developing front-end and user interface code for Web sites and mobile apps \r\n•\tFamiliarity with the latest mobile UI and UX design patterns\r\n•\tMust have strong knowledge of the following technologies and languages\r\n+\tResponsive Web Design\r\n+\tHTML5, Advanced HTML (Canvas, SVG)\r\n+\tCSS Pre-processors (SASS)\r\n+\tCSS Framework (Bootstrap)\r\n+\tCSS3 Animation\r\n+\tDOM Manipulation frameworks such as jQuery\r\n+\tJS frameworks (Angular, Node, React)\r\n•\tHas experience using \r\n+\tversion control tools such as Git Bash and Tortoise SVN\r\n+\tShell scripts and FTP/SFTP/SSH\r\n+\tJSON and REST APIs',
+                jobRequirement: '1.\tYou're :\r\n•\tMust display excellent leadership potential coupled with solid work ethic.\r\n•\tAbility to communicate clearly and concisely, both orally and in writing.\r\n•\tStrong analytical and problem solving skills.\r\n•\tKnowledge of basic project management methodology.\r\n•\tKnowledge in Scrum and Kanban is a must\r\n•\tKnowledge on any CMS (Content Management System) template will be plus\r\n\r\n2.\tQualifications and Experiences:\r\n•\tCandidates must possess at least a Bachelor's degree, preferably in Computer Science/Information Technology or equivalent\r\n•\t3+ years developing front-end and user interface code for Web sites and mobile apps \r\n•\tFamiliarity with the latest mobile UI and UX design patterns\r\n•\tMust have strong knowledge of the following technologies and languages\r\n+\tResponsive Web Design\r\n+\tHTML5, Advanced HTML (Canvas, SVG)\r\n+\tCSS Pre-processors (SASS)\r\n+\tCSS Framework (Bootstrap)\r\n+\tCSS3 Animation\r\n+\tDOM Manipulation frameworks such as jQuery\r\n+\tJS frameworks (Angular, Node, React)\r\n•\tHas experience using \r\n+\tversion control tools such as Git Bash and Tortoise SVN\r\n+\tShell scripts and FTP/SFTP/SSH\r\n+\tJSON and REST APIs',
                 objectID: '1162710',
                 _highlightResult: {
                     jobTitle: {
@@ -980,7 +980,7 @@ let myProducts = [
                         matchedWords: []
                     },
                     jobDescription: {
-                        value: '*Job Purpose:\t\t\r\nThe Global <em>Web</em> Marketing team has an exciting opportunity for a Front-End <em>Developer</em> to join our team of developers; working on creating best-in-class <em>web</em>-based products supporting the company’s marketing efforts (consumer and corporate sites, customer care, forum, game sites, campaign sites and newsletters).\r\nAn Intermediate Front-End <em>Developer</em> works with <em>web</em> developers and back-end coder and is technically responsible for the overall quality, security and development of the online user experience.  To this extent, proofreading skills and an all-around attention to detail is vital, in order to provide all target users a high-quality & efficient experience.\r\n\r\nMain Responsibilities:  \r\n•\tPerform <em>web</em> and legacy system development, update and support.\r\n•\tMust have strong knowledge of front-end <em>web</em> technologies.\r\n•\tGood understanding of <em>Web</em> analytics and SEO techniques and how to implement them.\r\n•\tOptimizes <em>web</em> applications to ensure they are rendered consistently and efficiently in a cross-browser environment\r\n•\tSupport the development team to boost website security and propose initiatives to deliver full website performance and optimization.\r\n•\tContribute to continuous improvement by suggesting improvement to user interface or new technologies.\r\n•\tAnalyzes customer requirements and defines front-end solutions while providing assistance to the team for any problem and technical roadblocks. \r\n•\tRecommends new technologies and development strategies\r\n•\tCoordinate roll-out of new applications\r\n•\tProvides production support\r\n•\tPerforms other duties that maybe assigned from time to time.',
+                        value: '*Job Purpose:\t\t\r\nThe Global <em>Web</em> Marketing team has an exciting opportunity for a Front-End <em>Developer</em> to join our team of developers; working on creating best-in-class <em>web</em>-based products supporting the company's marketing efforts (consumer and corporate sites, customer care, forum, game sites, campaign sites and newsletters).\r\nAn Intermediate Front-End <em>Developer</em> works with <em>web</em> developers and back-end coder and is technically responsible for the overall quality, security and development of the online user experience.  To this extent, proofreading skills and an all-around attention to detail is vital, in order to provide all target users a high-quality & efficient experience.\r\n\r\nMain Responsibilities:  \r\n•\tPerform <em>web</em> and legacy system development, update and support.\r\n•\tMust have strong knowledge of front-end <em>web</em> technologies.\r\n•\tGood understanding of <em>Web</em> analytics and SEO techniques and how to implement them.\r\n•\tOptimizes <em>web</em> applications to ensure they are rendered consistently and efficiently in a cross-browser environment\r\n•\tSupport the development team to boost website security and propose initiatives to deliver full website performance and optimization.\r\n•\tContribute to continuous improvement by suggesting improvement to user interface or new technologies.\r\n•\tAnalyzes customer requirements and defines front-end solutions while providing assistance to the team for any problem and technical roadblocks. \r\n•\tRecommends new technologies and development strategies\r\n•\tCoordinate roll-out of new applications\r\n•\tProvides production support\r\n•\tPerforms other duties that maybe assigned from time to time.',
                         matchLevel: 'full',
                         fullyHighlighted: false,
                         matchedWords: [
@@ -989,7 +989,7 @@ let myProducts = [
                         ]
                     },
                     jobRequirement: {
-                        value: '1.\tYou’re :\r\n•\tMust display excellent leadership potential coupled with solid work ethic.\r\n•\tAbility to communicate clearly and concisely, both orally and in writing.\r\n•\tStrong analytical and problem solving skills.\r\n•\tKnowledge of basic project management methodology.\r\n•\tKnowledge in Scrum and Kanban is a must\r\n•\tKnowledge on any CMS (Content Management System) template will be plus\r\n\r\n2.\tQualifications and Experiences:\r\n•\tCandidates must possess at least a Bachelor’s degree, preferably in Computer Science/Information Technology or equivalent\r\n•\t3+ years developing front-end and user interface code for <em>Web</em> sites and mobile apps \r\n•\tFamiliarity with the latest mobile UI and UX design patterns\r\n•\tMust have strong knowledge of the following technologies and languages\r\n+\tResponsive <em>Web</em> Design\r\n+\tHTML5, Advanced HTML (Canvas, SVG)\r\n+\tCSS Pre-processors (SASS)\r\n+\tCSS Framework (Bootstrap)\r\n+\tCSS3 Animation\r\n+\tDOM Manipulation frameworks such as jQuery\r\n+\tJS frameworks (Angular, Node, React)\r\n•\tHas experience using \r\n+\tversion control tools such as Git Bash and Tortoise SVN\r\n+\tShell scripts and FTP/SFTP/SSH\r\n+\tJSON and REST APIs',
+                        value: '1.\tYou're :\r\n•\tMust display excellent leadership potential coupled with solid work ethic.\r\n•\tAbility to communicate clearly and concisely, both orally and in writing.\r\n•\tStrong analytical and problem solving skills.\r\n•\tKnowledge of basic project management methodology.\r\n•\tKnowledge in Scrum and Kanban is a must\r\n•\tKnowledge on any CMS (Content Management System) template will be plus\r\n\r\n2.\tQualifications and Experiences:\r\n•\tCandidates must possess at least a Bachelor's degree, preferably in Computer Science/Information Technology or equivalent\r\n•\t3+ years developing front-end and user interface code for <em>Web</em> sites and mobile apps \r\n•\tFamiliarity with the latest mobile UI and UX design patterns\r\n•\tMust have strong knowledge of the following technologies and languages\r\n+\tResponsive <em>Web</em> Design\r\n+\tHTML5, Advanced HTML (Canvas, SVG)\r\n+\tCSS Pre-processors (SASS)\r\n+\tCSS Framework (Bootstrap)\r\n+\tCSS3 Animation\r\n+\tDOM Manipulation frameworks such as jQuery\r\n+\tJS frameworks (Angular, Node, React)\r\n•\tHas experience using \r\n+\tversion control tools such as Git Bash and Tortoise SVN\r\n+\tShell scripts and FTP/SFTP/SSH\r\n+\tJSON and REST APIs',
                         matchLevel: 'partial',
                         fullyHighlighted: false,
                         matchedWords: [
@@ -1079,7 +1079,7 @@ let myProducts = [
                 locations: [
                     'Ho Chi Minh'
                 ],
-                jobDescription: '*Job Purpose:\t\t\r\nThe Global Web Marketing team has an exciting opportunity for a Back-End Developer to join our team of developers, working on creating best-in-class web-based products supporting the company’s marketing efforts (consumer and corporate sites, customer care, forum, game sites, campaign sites and newsletters).\r\nAn Intermediate Back-End Developer is responsible for server-side web application logic and works hand in hand with the Front-End Developers on integration. He develops scripts and implements coding for various websites and applications using PHP to create dynamic web applications\r\n\r\nMain Responsibilities:  \r\n•\tPerform web and legacy system development, update and support.\r\n•\tInitiate and lead development of internal web tools and application, design and build back-office system from scratch.\r\n•\tDelivery high level solutions or subsystems like custom API’s, database modeling and design.\r\n•\tContribute to continuous improvement by suggesting improvement to user interface, software architecture or new technologies.\r\n•\tWork with the team manager to conduct performance reviews as well as hiring plans.\r\n•\tAnalyzes customer requirements and defines solutions and architecture plus assistance to the team on problems and technical roadblocks. \r\n•\tRecommends new technologies and development strategies\r\n•\tCoordinate roll-out of new applications\r\n•\tProvides production support\r\n•\tPerforms other duties that maybe assigned from time to time.',
+                jobDescription: '*Job Purpose:\t\t\r\nThe Global Web Marketing team has an exciting opportunity for a Back-End Developer to join our team of developers, working on creating best-in-class web-based products supporting the company's marketing efforts (consumer and corporate sites, customer care, forum, game sites, campaign sites and newsletters).\r\nAn Intermediate Back-End Developer is responsible for server-side web application logic and works hand in hand with the Front-End Developers on integration. He develops scripts and implements coding for various websites and applications using PHP to create dynamic web applications\r\n\r\nMain Responsibilities:  \r\n•\tPerform web and legacy system development, update and support.\r\n•\tInitiate and lead development of internal web tools and application, design and build back-office system from scratch.\r\n•\tDelivery high level solutions or subsystems like custom API's, database modeling and design.\r\n•\tContribute to continuous improvement by suggesting improvement to user interface, software architecture or new technologies.\r\n•\tWork with the team manager to conduct performance reviews as well as hiring plans.\r\n•\tAnalyzes customer requirements and defines solutions and architecture plus assistance to the team on problems and technical roadblocks. \r\n•\tRecommends new technologies and development strategies\r\n•\tCoordinate roll-out of new applications\r\n•\tProvides production support\r\n•\tPerforms other duties that maybe assigned from time to time.',
                 isShowLogoInSearchResult35: true,
                 publishedDate: 1568689519,
                 isPremium: false,
@@ -1087,7 +1087,7 @@ let myProducts = [
                     'PHP',
                     'Java'
                 ],
-                jobRequirement: '1.\tYou’re :\r\n•\tMust display excellent leadership potential coupled with solid work ethic.\r\n•\tAbility to communicate clearly and concisely, both orally and in writing.\r\n•\tStrong analytical and problem solving skills.\r\n•\tKnowledge of basic project management methodology.\r\n•\tKnowledge in Scrum and Kanban is must.\r\n•\tKnowledge on any CMS (Content Management System) will be plus\r\n\r\n2.\tQualifications and Experiences:\r\n•\tCandidate must possess at least a Bachelor\'s/College Degree, Computer Science/Information Technology, Engineering (Computer/Telecommunication) or equivalent.\r\n•\tAt least 3 year(s) of working experience in the related field, preferably 2 years & up experienced in full stack PHP Development\r\n•\tHas strong knowledge of the following technologies and languages\r\no\tFull stack PHP development\r\no\tXAMP or WAMP stack and each of its core components.\r\no\tPHP Frameworks such as Zend Framework or Code-igniter.\r\n•\tHas experience using \r\no\tJSON and REST APIs\r\no\tVersion control tools such as Git Bash and Tortoise SVN.\r\no\tFTP/SFTP/SSH/Shell scripts\r\n•\tHas good experience with front-end code \r\no\tHTML, CSS, JavaScript (JS)\r\no\tDOM Manipulation frameworks such as jQuery\r\no\tJS frameworks (Angular, Node, React)',
+                jobRequirement: '1.\tYou're :\r\n•\tMust display excellent leadership potential coupled with solid work ethic.\r\n•\tAbility to communicate clearly and concisely, both orally and in writing.\r\n•\tStrong analytical and problem solving skills.\r\n•\tKnowledge of basic project management methodology.\r\n•\tKnowledge in Scrum and Kanban is must.\r\n•\tKnowledge on any CMS (Content Management System) will be plus\r\n\r\n2.\tQualifications and Experiences:\r\n•\tCandidate must possess at least a Bachelor\'s/College Degree, Computer Science/Information Technology, Engineering (Computer/Telecommunication) or equivalent.\r\n•\tAt least 3 year(s) of working experience in the related field, preferably 2 years & up experienced in full stack PHP Development\r\n•\tHas strong knowledge of the following technologies and languages\r\no\tFull stack PHP development\r\no\tXAMP or WAMP stack and each of its core components.\r\no\tPHP Frameworks such as Zend Framework or Code-igniter.\r\n•\tHas experience using \r\no\tJSON and REST APIs\r\no\tVersion control tools such as Git Bash and Tortoise SVN.\r\no\tFTP/SFTP/SSH/Shell scripts\r\n•\tHas good experience with front-end code \r\no\tHTML, CSS, JavaScript (JS)\r\no\tDOM Manipulation frameworks such as jQuery\r\no\tJS frameworks (Angular, Node, React)',
                 _geoloc: {
                     lng: 106.7131842,
                     lat: 10.8090852
@@ -1138,7 +1138,7 @@ let myProducts = [
                         matchedWords: []
                     },
                     jobDescription: {
-                        value: '*Job Purpose:\t\t\r\nThe Global <em>Web</em> Marketing team has an exciting opportunity for a Back-End <em>Developer</em> to join our team of developers, working on creating best-in-class <em>web</em>-based products supporting the company’s marketing efforts (consumer and corporate sites, customer care, forum, game sites, campaign sites and newsletters).\r\nAn Intermediate Back-End <em>Developer</em> is responsible for server-side <em>web</em> application logic and works hand in hand with the Front-End Developers on integration. He develops scripts and implements coding for various websites and applications using PHP to create dynamic <em>web</em> applications\r\n\r\nMain Responsibilities:  \r\n•\tPerform <em>web</em> and legacy system development, update and support.\r\n•\tInitiate and lead development of internal <em>web</em> tools and application, design and build back-office system from scratch.\r\n•\tDelivery high level solutions or subsystems like custom API’s, database modeling and design.\r\n•\tContribute to continuous improvement by suggesting improvement to user interface, software architecture or new technologies.\r\n•\tWork with the team manager to conduct performance reviews as well as hiring plans.\r\n•\tAnalyzes customer requirements and defines solutions and architecture plus assistance to the team on problems and technical roadblocks. \r\n•\tRecommends new technologies and development strategies\r\n•\tCoordinate roll-out of new applications\r\n•\tProvides production support\r\n•\tPerforms other duties that maybe assigned from time to time.',
+                        value: '*Job Purpose:\t\t\r\nThe Global <em>Web</em> Marketing team has an exciting opportunity for a Back-End <em>Developer</em> to join our team of developers, working on creating best-in-class <em>web</em>-based products supporting the company's marketing efforts (consumer and corporate sites, customer care, forum, game sites, campaign sites and newsletters).\r\nAn Intermediate Back-End <em>Developer</em> is responsible for server-side <em>web</em> application logic and works hand in hand with the Front-End Developers on integration. He develops scripts and implements coding for various websites and applications using PHP to create dynamic <em>web</em> applications\r\n\r\nMain Responsibilities:  \r\n•\tPerform <em>web</em> and legacy system development, update and support.\r\n•\tInitiate and lead development of internal <em>web</em> tools and application, design and build back-office system from scratch.\r\n•\tDelivery high level solutions or subsystems like custom API's, database modeling and design.\r\n•\tContribute to continuous improvement by suggesting improvement to user interface, software architecture or new technologies.\r\n•\tWork with the team manager to conduct performance reviews as well as hiring plans.\r\n•\tAnalyzes customer requirements and defines solutions and architecture plus assistance to the team on problems and technical roadblocks. \r\n•\tRecommends new technologies and development strategies\r\n•\tCoordinate roll-out of new applications\r\n•\tProvides production support\r\n•\tPerforms other duties that maybe assigned from time to time.',
                         matchLevel: 'full',
                         fullyHighlighted: false,
                         matchedWords: [
@@ -1147,7 +1147,7 @@ let myProducts = [
                         ]
                     },
                     jobRequirement: {
-                        value: '1.\tYou’re :\r\n•\tMust display excellent leadership potential coupled with solid work ethic.\r\n•\tAbility to communicate clearly and concisely, both orally and in writing.\r\n•\tStrong analytical and problem solving skills.\r\n•\tKnowledge of basic project management methodology.\r\n•\tKnowledge in Scrum and Kanban is must.\r\n•\tKnowledge on any CMS (Content Management System) will be plus\r\n\r\n2.\tQualifications and Experiences:\r\n•\tCandidate must possess at least a Bachelor\'s/College Degree, Computer Science/Information Technology, Engineering (Computer/Telecommunication) or equivalent.\r\n•\tAt least 3 year(s) of working experience in the related field, preferably 2 years & up experienced in full stack PHP Development\r\n•\tHas strong knowledge of the following technologies and languages\r\no\tFull stack PHP development\r\no\tXAMP or WAMP stack and each of its core components.\r\no\tPHP Frameworks such as Zend Framework or Code-igniter.\r\n•\tHas experience using \r\no\tJSON and REST APIs\r\no\tVersion control tools such as Git Bash and Tortoise SVN.\r\no\tFTP/SFTP/SSH/Shell scripts\r\n•\tHas good experience with front-end code \r\no\tHTML, CSS, JavaScript (JS)\r\no\tDOM Manipulation frameworks such as jQuery\r\no\tJS frameworks (Angular, Node, React)',
+                        value: '1.\tYou're :\r\n•\tMust display excellent leadership potential coupled with solid work ethic.\r\n•\tAbility to communicate clearly and concisely, both orally and in writing.\r\n•\tStrong analytical and problem solving skills.\r\n•\tKnowledge of basic project management methodology.\r\n•\tKnowledge in Scrum and Kanban is must.\r\n•\tKnowledge on any CMS (Content Management System) will be plus\r\n\r\n2.\tQualifications and Experiences:\r\n•\tCandidate must possess at least a Bachelor\'s/College Degree, Computer Science/Information Technology, Engineering (Computer/Telecommunication) or equivalent.\r\n•\tAt least 3 year(s) of working experience in the related field, preferably 2 years & up experienced in full stack PHP Development\r\n•\tHas strong knowledge of the following technologies and languages\r\no\tFull stack PHP development\r\no\tXAMP or WAMP stack and each of its core components.\r\no\tPHP Frameworks such as Zend Framework or Code-igniter.\r\n•\tHas experience using \r\no\tJSON and REST APIs\r\no\tVersion control tools such as Git Bash and Tortoise SVN.\r\no\tFTP/SFTP/SSH/Shell scripts\r\n•\tHas good experience with front-end code \r\no\tHTML, CSS, JavaScript (JS)\r\no\tDOM Manipulation frameworks such as jQuery\r\no\tJS frameworks (Angular, Node, React)',
                         matchLevel: 'none',
                         matchedWords: []
                     }
@@ -1353,6 +1353,7 @@ let myProducts = [
       let { benefitValue } = benefits[j];
       console.log("-", benefitValue);
     }
+}
     console.log("Skills:");
     for (let k = 0; k < skills.length; k++) {
       console.log(skills[k],',');
@@ -1374,5 +1375,5 @@ let myProducts = [
   };
   let secondData = { ...FIRST_DATA }; 
   console.log("before:", FIRST_DATA);
-  delete newData.noodles; 
+  delete FIRST_DATA.noodles; 
   console.log("after:", secondData)
