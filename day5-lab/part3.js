@@ -30,6 +30,7 @@ let sameWords = 0;
 while (countWords < WORDS.length) {
   for (let i = 0; i < WORDS.length; i++) {
     if (WORDS[i] == WORDS[countWords]) {
+      WORDS.splice(i,1)
       sameWords += 1;
     }
   }
